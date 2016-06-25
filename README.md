@@ -1,1 +1,1 @@
-# elasticsearch-5-scces
+# scces
