@@ -1,6 +1,7 @@
 (ns example.spec
-  (:require [clojure.spec :as s]
-            [example.core :as core]))
+  (:require [clojure.spec :as s]))
+
+(alias 'core 'example.core)
 
 (s/def ::core/config
   (s/* (s/cat :prop string?

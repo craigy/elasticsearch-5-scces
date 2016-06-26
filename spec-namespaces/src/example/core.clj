@@ -1,5 +1,6 @@
 (ns example.core
-  (:require [clojure.spec :as s]))
+  (:require [clojure.spec :as s]
+            [example.spec]))
 
 (defn- set-config [prop val]
   (println "set" prop val))
